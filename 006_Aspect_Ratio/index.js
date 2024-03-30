@@ -4,7 +4,7 @@ function calculateMCD () {
     URL.src = "https://live.staticflickr.com/3068/3008165544_db916c2c57_b.jpg"
     let num1= URL.width
     let num2= URL.height
-
+    
     let mcd = undefined
     for (let i = 0; i <= num1; i++) {
         let r1 = num1 % i
